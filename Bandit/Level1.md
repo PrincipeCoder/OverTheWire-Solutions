@@ -10,6 +10,7 @@ address: bandit.labs.overthewire.org
 port: 2220
 
 ### Solución
+<pre>
 ssh -p 2220 bandit0@bandit.labs.overthewire.org
 
 bandit0@bandit:~$ ls
@@ -24,6 +25,6 @@ contribute to the OverTheWire community so we can keep these games free!
 The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 bandit0@bandit:~$ 
-
+<pre>
 
 **Flag: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If**

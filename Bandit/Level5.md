@@ -28,6 +28,7 @@ Tipo de archivo y Permisos (-rw-r-----):
 
 
 ### Solución
+<pre>
 ssh -p 2220 bandit4@bandit.labs.overthewire.org
 
 bandit4@bandit:~$ ls
@@ -62,6 +63,6 @@ bandit4@bandit:~/inhere$
 bandit4@bandit:~/inhere$ cat ./-file07
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 bandit4@bandit:~/inhere$ 
-
+<pre>
 
 **Flag: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw**

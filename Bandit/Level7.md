@@ -25,6 +25,7 @@ Stderr (Standard Error - Descriptor 2): Donde salen los mensajes de error (como 
 
 /dev/null: Es el "agujero negro" de Linux. Todo lo que envíes ahí desaparece y no se muestra en la terminal.
 ### Solución
+<pre>
 ssh -p 2220 bandit6@bandit.labs.overthewire.org
 
 bandit6@bandit:~$ find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null
@@ -32,6 +33,7 @@ bandit6@bandit:~$ find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/n
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 bandit6@bandit:~$ 
+<pre>
 
 
 **Flag: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj**

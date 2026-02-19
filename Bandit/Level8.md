@@ -12,6 +12,7 @@ address: bandit.labs.overthewire.org
 port: 2220
 
 ### Solución
+<pre>
 ssh -p 2220 bandit7@bandit.labs.overthewire.org
 
 bandit7@bandit:~$ ls
@@ -30,6 +31,6 @@ infrequent      prgVPbuC3H3BHxzhsybUplbyVRdljiKI
 bandit7@bandit:~$ cat data.txt | grep millionth
 millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 bandit7@bandit:~$ 
-
+<pre>
 
 **Flag: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc**

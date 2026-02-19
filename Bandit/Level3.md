@@ -10,6 +10,7 @@ address: bandit.labs.overthewire.org
 port: 2220
 
 ### Solución
+<pre>
 ssh -p 2220 bandit2@bandit.labs.overthewire.org
 
 bandit2@bandit:~$ ls
@@ -19,6 +20,6 @@ bandit2@bandit:~$ file ./--spaces\ in\ this\ filename--
 bandit2@bandit:~$ cat ./--spaces\ in\ this\ filename-- 
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 bandit2@bandit:~$ 
-
+<pre>
 
 **Flag: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx**

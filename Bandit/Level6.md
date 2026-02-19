@@ -37,6 +37,7 @@ El comando find sigue esta estructura: find [ruta] [expresión] [acción].
 -perm [modo]: Busca permisos específicos (ej. -perm 777 o -perm /u=s para SUID).
 
 ### Solución
+<pre>
 ssh -p 2220 bandit5@bandit.labs.overthewire.org
 
 bandit5@bandit:~$ ls
@@ -76,6 +77,6 @@ bandit5@bandit:~/inhere$ find . -type f -size 1033c ! -executable | cat
 bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 bandit5@bandit:~/inhere$ 
-
+<pre>
 
 **Flag: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG**

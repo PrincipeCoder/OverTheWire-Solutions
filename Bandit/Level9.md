@@ -17,12 +17,12 @@ sort: Ordena las líneas alfabéticamente. Esto agrupa todas las palabras repeti
 uniq -u: La flag -u (unique) es la más importante aquí. A diferencia del uniq normal (que solo quita duplicados), el parámetro -u le dice al sistema: "Muéstrame únicamente las líneas que NO se repitieron nunca".
 
 ### Solución
-
+<pre>
 ssh -p 2220 bandit8@bandit.labs.overthewire.org
 
 bandit8@bandit:~$ cat data.txt | sort | uniq -u
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM                                                                                    
 bandit8@bandit:~$  
-
+<pre>
 **Flag: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM**
 

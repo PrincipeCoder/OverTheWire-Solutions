@@ -10,6 +10,7 @@ address: bandit.labs.overthewire.org
 port: 2220
 
 ### Solución
+<pre>
 ssh -p 2220 bandit1@bandit.labs.overthewire.org
 
 bandit1@bandit:~$ ls
@@ -25,6 +26,6 @@ drwxr-xr-x 150 root    root    4096 Oct 14 09:29 ..
 bandit1@bandit:~$ cat ./-
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 bandit1@bandit:~$ 
-
+<pre>
 
 **Flag: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx**
