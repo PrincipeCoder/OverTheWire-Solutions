@@ -16,6 +16,11 @@ sort: Ordena las líneas alfabéticamente. Esto agrupa todas las palabras repeti
 
 uniq -u: La flag -u (unique) es la más importante aquí. A diferencia del uniq normal (que solo quita duplicados), el parámetro -u le dice al sistema: "Muéstrame únicamente las líneas que NO se repitieron nunca".
 
+uniq	Quita los duplicados y te deja una copia de cada palabra.
+uniq -u	Muestra solo la palabra que apareció una sola vez.
+uniq -d	Muestra solo las palabras que SÍ están repetidas.
+uniq -c	Cuenta cuántas veces aparece cada palabra.
+
 ### Solución
 <pre>
 ssh -p 2220 bandit8@bandit.labs.overthewire.org
